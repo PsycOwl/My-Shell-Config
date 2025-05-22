@@ -27,7 +27,7 @@
             "macos": "\uf179"
           },
           "style": "plain",
-          "template": " {{.Icon}}{{if .WSL}} (WSL){{end}}\u2800",
+          "template": " {{.Icon}}{{if .WSL}} (WSL){{end}} \u2800",
           "type": "os"
         },
         {
@@ -41,7 +41,7 @@
           "background": "#ffe093",
           "foreground": "p:black",
           "style": "plain",
-          "template": " \uf2c0 {{.HostName}}\ue0bd{{.UserName}}\u2800",
+          "template": " \uf2bd {{.HostName}}\ue0bd{{.UserName}}\u2800",
           "type": "session"
         },
         {
